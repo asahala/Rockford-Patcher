@@ -3,9 +3,11 @@
 # Rockford patcher and trainer
 Rockford was a Boulder Dash clone published by Mastertronic ltd. in 1987. The game included 20 levels divided into five difficulty levels each using their own graphical themes: hunter, cook, cowboy, space and doctor. 
 
-Rockford also included 20 hidden levels which were unplayable. When I contacted Mastertronic in 2006, I was told that the were designed for a future add-on, which never released because they recided to do Rockford II instead. These levels were about to use five additional graphic sets called scuba, miner, player, luck and music.
+Rockford also included 20 hidden levels which were unplayable. When I contacted Mastertronic in 2006, I was told that they were designed for a possible future add-on, which was never released because they recided to do Rockford II instead. These levels were about feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music.
 
-This patcher/trainer allows you to play the hidden level set, as well as turn on some cheats. Unfortunately, as the graphics for these additional themes were never created, the additional levels are rendered using the base graphics set. Tested with the ROCKFORD.EXE that is 29963 bytes in size. Should work with other versions as well (except for the godmode).
+This patcher/trainer allows you to play the hidden level set, as well as turn on some cheats. Unfortunately, as the graphics for these additional themes were never created, the additional levels are rendered using the base graphics set. 
+
+Tested with the ROCKFORD.EXE that is 29963 bytes in size. Should work with other versions as well (except for the godmode).
 
 ## Enabling hidden levels
 Copy ```MENU.ADD``` to your ROCKFORD directory with the ```rockford_patcher.py```. Then simply run the script. After this you can play the hidden levels by running ```ADDON.EXE```.
