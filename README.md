@@ -13,7 +13,7 @@ Tested with the ROCKFORD.EXE that is 29963 bytes in size. Should work with other
 Copy ```MENU.ADD``` to your ROCKFORD directory with the ```rockford_patcher.py```. Then simply run the script. After this you can play the hidden levels by running ```ADDON.EXE```.
 
 ## Trainer
-If you find the game too difficult, you can set on godmode by setting ```enable_godmode = True``` in the ```main()``` function. After this, colliding with enemies, falling stones or being in explosions will not kill you, but instead spawn money around you. You can abuse this feature by hitting the key ```R```. This explodes whatever is around you and replaces them with money. If you use this hack next to the the exit door, you cannot finish the level and have to quit the game to proceed.
+If you find the game too difficult, you can set on godmode by setting ```enable_godmode = True``` in the ```main()``` function. After this, colliding with enemies, falling stones or being in explosions will not kill you, but instead spawn money around you. You can abuse this feature by hitting the key ```R```. This explodes whatever is around you and replaces them with money. Try not blow up the exit door.
 
 ## Future stuff
 Perhaps find a couple of people to design the hidden graphic sets. They are encoded in planar EGA.
