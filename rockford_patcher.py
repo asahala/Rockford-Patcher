@@ -23,7 +23,7 @@ Enable god-mode in main() by setting god_mode = True
 
 ==================================================== """
 
-## Hardcoded hex-values (there are at least two differnt
+## Hardcoded hex-values (there are at least two different
 ## versions of ROCKFORD.EXE where the offsets differ.
 
 BYTES_MONEY = [
@@ -57,10 +57,10 @@ def patch_file(path, god_mode):
 
     """ Patches ROCKFORD.EXE by a simple replacement operation """
     
-    with open(os.path.join(path, 'rockford.exe'), 'rb') as exe,\
-         open(os.path.join(path, 'cellmaps.bin'), 'rb') as maps,\
-         open(os.path.join(path,'addon.exe'), 'wb') as exe2,\
-         open(os.path.join(path,'cellmaps.add'), 'wb') as maps2:
+    with open(os.path.join(path, 'ROCKFORD.EXE'), 'rb') as exe,\
+         open(os.path.join(path, 'CELLMAPS.BIN'), 'rb') as maps,\
+         open(os.path.join(path,'ADDON.EXE'), 'wb') as exe2,\
+         open(os.path.join(path,'CELLMAPS.ADD'), 'wb') as maps2:
         
         hex_data = binascii.hexlify(exe.read()).decode('ascii').lower()
         map_data = binascii.hexlify(maps.read()).decode('ascii')
