@@ -1,4 +1,4 @@
-![alt text](https://www.mv.helsinki.fi/home/asahala/img/lemmatizer2.png](https://www.mv.helsinki.fi/home/asahala/rockford/themes.gif)
+![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/themes.gif)
 
 # Rockford patcher and trainer
 Rockford was a Boulder Dash clone published by Mastertronic ltd. in 1987. The game included 20 levels divided into five difficulty levels each using their own graphical themes: hunter, cook, cowboy, space and doctor. 
