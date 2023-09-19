@@ -1,7 +1,7 @@
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/themes.gif)
 
 # Rockford patcher and trainer
-Rockford was a Boulder Dash clone published by Mastertronic ltd. in 1987 for DOS. The game included 20 levels divided into five difficulty settingsm, each using their own themes: hunter, cook, cowboy, space and doctor. 
+[Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for DOS. The game included 20 levels divided into five difficulty settingsm, each using their own themes: hunter, cook, cowboy, space and doctor. 
 
 Rockford also included 20 hidden levels which were unplayable. When I contacted Mastertronic in 2006, I was told that they were designed for a possible future add-on, which was never released because they recided to do Rockford II instead. These levels were about feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music.
 
