@@ -23,7 +23,7 @@ Enable god-mode in main() by setting god_mode = True
 
 ==================================================== """
 
-## Hard-coded hex-values (there are at least two differnt
+## Hardcoded hex-values (there are at least two differnt
 ## versions of ROCKFORD.EXE where the offsets differ.
 
 BYTES_MONEY = [
@@ -97,12 +97,8 @@ def patch_file(path, god_mode):
 
 
 def main():
-
-    print('Rockford Patcher/Trainer')
-    print('========================')
     
-    god_mode = True
-    
+    god_mode = False
     path = '.'
     patch_file(path, god_mode)
     
