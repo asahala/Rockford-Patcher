@@ -16,4 +16,5 @@ Copy ```MENU.ADD``` to your ROCKFORD directory with the ```rockford_patcher.py``
 If you find the game too difficult, you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, falling stones or being in explosions will not kill you, but instead spawn money around you. You can abuse this feature by hitting the key ```R```. This explodes whatever is around you and replaces them with money. Try not blow up the exit door.
 
 ## Future stuff
-Perhaps find a couple of people to design the hidden graphic sets. They are encoded in planar EGA.
+Perhaps find a couple of people to design the hidden graphic sets. They are encoded in planar EGA (beta version of extraction tool in tools directory). 
+
