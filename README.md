@@ -7,7 +7,7 @@ Rockford also included 20 **hidden levels** which were unplayable. When I contac
 
 This patcher/trainer allows you to play the hidden level set, as well as turn on some cheats. Unfortunately, as the graphics for these additional themes were never created, the additional levels are rendered using the base graphics set. 
 
-Tested with the ROCKFORD.EXE that is 29963 bytes in size. Should work with other versions as well (except for the god-mode).
+Tested with the ROCKFORD.EXE that is 29963 bytes in size. Should work with other versions as well (except for the god-mode). This is the version that has four lives instead of infinite lives.
 
 ## Enabling hidden levels
 Copy ```MENU.ADD``` to your ROCKFORD directory with the ```rockford_patcher.py```. Then simply run the script. After this you can play the hidden levels by running ```ADDON.EXE```.
