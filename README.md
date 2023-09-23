@@ -7,7 +7,7 @@ Rockford also included 20 **hidden levels** which were unplayable. When I contac
 
 This patcher/trainer allows you to play the hidden level set, as well as turn on some cheats.
 
-Tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). Has not been tested with the version with infinite lives. Does not work witht the 18kb ROCKFORD.EXE due to encryption.
+Tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). Has not been tested with the version with infinite lives. Does not work with the 18kb ROCKFORD.EXE due to encryption.
 
 ## Enabling hidden levels
 Either, copy all files from the folder ```gfx``` to your ROCKFORD directory. Then copy ```rockford_patcher.py``` into you your ROCKFROD directory and run it. You can just open it in Python's IDLE and hit F5. After this you can play the hidden levels by running ```ADDON.EXE```, but for this you'll need an old Dos machine or [DOSBox](https://www.dosbox.com/).
