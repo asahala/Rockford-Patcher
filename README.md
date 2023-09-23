@@ -13,6 +13,8 @@ Tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabando
 Copy all files from the folder ```gfx``` to your ROCKFORD directory. Then copy ```rockford_patcher.py``` into you your ROCKFROD directory and run it. After this you can play the hidden levels by running ```ADDON.EXE```.
 
 ## Converting planar EGA to PNG and back
+Converting graphics requires [PIL](https://pypi.org/project/Pillow/) (tested on version 8.1.0).
+
 Script ```planar_extractor.py``` can be used in your ROCKFORD directory to convert the planar EGA files into PNG and back. Use ```extract_png()``` to convert tilesets into PNG and ```save_planar()``` to convert them into the planar format. If you want to convert the original graphics sets into PNG, you can do it as follows:
 
 ```
