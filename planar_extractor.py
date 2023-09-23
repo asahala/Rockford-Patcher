@@ -7,6 +7,23 @@ from PIL import Image
                                              Aleksi Sahala 2023
                                              github.com/asahala
 
+
+To convert them into the planar format. If you want to convert
+the original graphics sets into PNG, you can do it as follows:
+
+img = EGAImage()
+img.read_planar('body.fil')
+img.write_png('yourfile.png', ega_palette, mapping=themes['body'])
+
+Due to the fact that Rockford themes do not use standard EGA
+palette, you must always use the mapping of the theme in question
+when extracting files. To convert it back to planar:
+
+img = EGAImage()
+img.read_png('tmp.png', ega_palette, mapping=themes['body'])
+img.write_planar('body.fil')
+
+
 =========================================================== """
 
 ega_palette = [
@@ -198,23 +215,3 @@ def save_planar():
         img.read_png(f'{file}.png', ega_palette)
         img.write_planar(f'{file}.ega')
 
-save_planar()
-    
-#img = EGAImage()
-#img.read_planar('body.ega')
-#img.convert_to_default()
-#print(img.EGA[0:100])
-#img.write_planar('hunter.add')
-#img.write_png('xxx.png', ega_palette)
-#img.read_png('.png', ega_palette)
-#img.write_planar('menu.ega')
-#img.write_png('x', ega_palette, mapping=themes['menu'])
-
-#img.write_planar('menu.add')
-
-
-#img.read_png('luck.png', ega_palette)
-#img.write_planar('space.ega')
-
-#img.read_png('menu2.png', ega_palette)
-#img.write_planar('menu.ega')
