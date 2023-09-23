@@ -10,7 +10,9 @@ This patcher/trainer allows you to play the hidden level set, as well as turn on
 Tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). Has not been tested with the version with infinite lives. Does not work witht the 18kb ROCKFORD.EXE due to encryption.
 
 ## Enabling hidden levels
-Copy all files from the folder ```gfx``` to your ROCKFORD directory. Then copy ```rockford_patcher.py``` into you your ROCKFROD directory and run it. You can just open it in Python's IDLE and hit F5. After this you can play the hidden levels by running ```ADDON.EXE```, but for this you'll need an old Dos machine or [DOSBox](https://www.dosbox.com/).
+Either, copy all files from the folder ```gfx``` to your ROCKFORD directory. Then copy ```rockford_patcher.py``` into you your ROCKFROD directory and run it. You can just open it in Python's IDLE and hit F5. After this you can play the hidden levels by running ```ADDON.EXE```, but for this you'll need an old Dos machine or [DOSBox](https://www.dosbox.com/).
+
+Alternatively, you can also just [download the ```addon.exe``` from here](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip).
 
 ## Converting planar EGA to PNG and back
 Converting graphics requires [PIL](https://pypi.org/project/Pillow/) (tested on version 8.1.0).
@@ -57,5 +59,5 @@ To make editing graphics easier, I have re-adjusted all the hidden theme EGA pal
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
 
 ## Copyrights
-Mastertronic still holds all the copyringhts to the game. Therefore I do not distribute any game files here (except for the link to the full game). All files distribute on this repository only modify the game files in case you have them. I make exception with the hidden graphics sets, because they are mostly my own artwork, except for one sprite for each player character. The meny graphics are mine, with the exception of the scuba diver, which is my EGA conversion from a random clip art found from the internet (don't know who did the original).
+Mastertronic still holds copyrights to the game, but it is generally considered abandonware and available to play at Playold and several other sites. The [ADDON.EXE](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip) allows you only play the hidden content and does not include the original data. 
 
