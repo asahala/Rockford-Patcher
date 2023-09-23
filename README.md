@@ -37,6 +37,8 @@ If you find the game too difficult, you can set on god-mode by setting ```god_mo
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshot.png)
 
 ## What is reconstructed and what is not?
+Short answer: everything except the levels, their gold counts and times, general idea of the themes, their color space and one frame of each player character. Long answer below:
+
 ***Order of the themes:*** The order of the themes is based on the collectible names fround from the EXE from offset 7A0 - 7EF. It is not 100% certain which themes they refer to, but with a little reasoning all except jewels and gems are somewhat obvious. Clubs are for luck, notes for music and cups for the player. I have put scuba and miner in this order based on the palette definitions. There's only one theme with black background in the EXE (offsets 9E3 - 9F2), and I assume that this belongs to the miner more likely than the blue background at offsets 95B - 95A.
 
 ***Order of the levels:*** The levels have been extracted from CELLMAPS.BIN and aligned with the themes in their order of appearance. I assume that it is the correct one, since the themes and levels of the base game have aligned similarly. The levels are ordered as HUNTER, THEME6, COOK, THEME7 etc.
