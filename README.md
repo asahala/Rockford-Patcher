@@ -34,5 +34,5 @@ Works also with the animation files (with extension CAR).
 ## Trainer
 If you find the game too difficult, you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, falling stones or being in explosions will not kill you, but instead spawn money around you. You can abuse this feature by hitting the key ```R```. This explodes whatever is around you and replaces them with money. Try not blow up the exit door.
 
-![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshots.png)
+![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshot.png)
 
