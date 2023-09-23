@@ -47,6 +47,8 @@ Thus, only one tile is available for each hidden graphics set. I have used those
 
 Some tilesets have unused assets, such as the steam locomotive for Cowboy. I've modified some of these for the hidden themes.
 
+To make editing graphics easier, I have re-adjusted all the hidden theme EGA palettes from Amiga OCS converted limited palettes to full EGA. As Rockford does not allow changing the background color to any other palette index (represented in octal numbers) than what's on the first offset, all palettes except miner consist only of 15 colors. This is, because the background color must exist twice in the palette, at the first offset and at its normal place in octal notation. Because black is more useful color than many others, I have replaced some unused color with black (e.g. with light magenta or light green). Keep this in mind if you play with the graphics files.
+
 ## Want to collaborate?
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
 
