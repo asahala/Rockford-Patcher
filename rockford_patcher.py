@@ -26,6 +26,38 @@ Enable god-mode in main() by setting god_mode = True
 ## Hardcoded hex-values (there are at least two different
 ## versions of ROCKFORD.EXE where the offsets differ.
 
+## Collectible namespace
+EXE_COLL = '2020474f4c440000202047454d530000'\
+           '4150504c455300002020435550530000'\
+           '20434f494e530000204e4f5445530000'\
+           '202053554e53000020434c5542530000'\
+           '48454152545300004a4557454c530000'
+
+ADD_COLL = '202047454d530000202047454d530000'\
+           '20204355505300002020435550530000'\
+           '204e4f5445530000204e4f5445530000'\
+           '20434c554253000020434c5542530000'\
+           '4a4557454c5300004a4557454c530000'
+
+## Graphic set references, FIL --> EGA
+GRAPHICS = {
+    'hunter': ['48554e5445522e46494c','48554e5445522e454741'],
+    'cook': ['434f4f4b2e46494c','434f4f4b2e454741'],
+    'cowboy': ['434f57424f592e46494c','434f57424f592e454741'],
+    'space': ['53504143452e46494c','53504143452e454741'],
+    'body': ['424f44592e46494c','424f44592e454741']}
+
+## Palettes. Normalizes palettes converted from Amiga OCS to EGA,
+## Curiously, these are represented as octal number
+PALETTES = {
+    'hunter': ['10110207040616151501140000061417','01010203040506071011001314151617'],
+    'cook': ['00170716040214160406161411111717','02010203040506071011121314001617'],
+    'cowboy': ['01120604141016140711120010070717','10010203040506071011001314151617'],
+    'space': ['10111603110517141604061316001617','01010203040506071011121314151617'],
+    'body': ['00070403140717171010141414151517','00010203040506071011121314151617']}
+
+
+## Money to be collected
 BYTES_MONEY = [
     '2800280050009600',
     '1400410082003700',
@@ -38,6 +70,7 @@ BYTES_MONEY = [
     '120046004b001200',
     '1000180039000100']
 
+## Level times
 BYTES_TIME = [
     '6e006e0082006e00',
     '50008c0064006e00',
@@ -50,6 +83,7 @@ BYTES_TIME = [
     '8200a000aa008c00',
     '8c008c006e00b400']
 
+## Menu graphics and level set
 FIL_NAMES = '43454c4c4d4150532e42494e004d454e552e46494c'
 ADD_NAMES = '43454c4c4d4150532e414444004d454e552e414444'
 
@@ -74,7 +108,27 @@ def patch_file(path, god_mode):
             target = ''.join(values[1:])
             old = hex_data
             hex_data = hex_data.replace(source, target)
-                
+
+        for name, pair in GRAPHICS.items():
+            if pair[0] not in hex_data:
+                print(f'> ERROR! Unable to find graphic refs to {name}')
+            else:
+                print(f'> Updated: {name} graphic set')
+                hex_data = hex_data.replace(pair[0], pair[1])
+
+        for name, pair in PALETTES.items():
+            if pair[0] not in hex_data:
+                print(f'> ERROR! Unable to find palette for {name}')
+            else:
+                print(f'> Updated: {name} palette')
+                hex_data = hex_data.replace(pair[0], pair[1])
+
+        if EXE_COLL in hex_data:
+            hex_data = hex_data.replace(EXE_COLL, ADD_COLL)
+            print(f'> Updated: collectible names')
+        else:
+            print(f'> ERROR! Unable to find collectible data')
+        
         hex_data = hex_data.replace(FIL_NAMES, ADD_NAMES)
 
         if god_mode:
@@ -83,6 +137,8 @@ def patch_file(path, god_mode):
                       'God-mode might crash your game')
             hex_data = hex_data[:5937] + '1' + hex_data[5938:]
             print('> God-mode enabled. Press R to explode walls around you.')
+        else:
+            hex_data = hex_data[:5937] + '2' + hex_data[5938:]
             
         bytes_ = binascii.unhexlify(str.encode(hex_data.upper()))
         exe2.write(bytes_)
