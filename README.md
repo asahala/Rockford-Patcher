@@ -59,5 +59,5 @@ To make editing graphics easier, I have re-adjusted all the hidden theme EGA pal
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
 
 ## Copyrights
-Mastertronic still holds copyrights to the game, but it is generally considered abandonware and available to play at Playold and several other sites. The [ADDON.EXE](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip) allows you only play the hidden content and does not include the original data. 
+Mastertronic still holds copyrights to the game, but it is generally considered abandonware and available to play at Playold and several other sites. The [rockford-addon.zip](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip) containing the ```addon.exe``` (prepatched ```rockford.exe```) allows you only play the hidden content and does not include original game data. Therefore, in order to play the original levels with the original graphics, you will have to get Rockford from somewhere else. 
 
