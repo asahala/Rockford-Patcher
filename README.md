@@ -36,6 +36,18 @@ If you find the game too difficult, you can set on god-mode by setting ```god_mo
 
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshot.png)
 
+## What is reconstructed and what is not?
+***Order of the themes:*** The order of the themes is based on the collectible names fround from the EXE from offset 7A0 - 7EF. It is not 100% certain which themes they refer to, but with a little reasoning all except jewels and gems are somewhat obvious. Clubs are for luck, notes for music and cups for the player. I have put scuba and miner in this order based on the palette definitions. There's only one theme with black background in the EXE (offsets 9E3 - 9F2), and I assume that this belongs to the miner more likely than the blue background at offsets 95B - 95A.
+
+***Order of the levels:*** The levels have been extracted from CELLMAPS.BIN and aligned with the themes in their order of appearance. I assume that it is the correct one, since the themes and levels of the base game have aligned similarly. The levels are ordered as HUNTER, THEME6, COOK, THEME7 etc.
+
+***Graphics:*** As for the lost graphics, the EXE only lists the tileset and animation file names (offsets 810 - 8DC). However, all tilesets except SPACE.FIL contain placeholder sprites for the player characters of all themes, including the hidden ones. These are in the order scuba diver, football player, musician, miner and leprechaun. Unfortunately their original colors are not shown and due to Amiga OCS --> EGA conversion, it is not possible to figure out using a single tileset even which pixels should be the same color. However, using all the tilesets this infromation can be reconstructed. 
+
+Thus, only one tile is available for each hidden graphics set. I have used those as a reference point to draw the character animations. All enemies, tiles, walls etc. are pure ad hoc drawings my be that could fit the theme, except for the collectibles. Thanks to palette definitions that can be found from the exe at offsets 929 - 9F3, I could have some kind of idea of the general color scheme. For example, that the miner should be pretty dark and luck fairly saturated.
+
+Some tilesets have unused assets, such as the steam locomotive for Cowboy. I've modified some of these for the hidden themes.
+
 ## Want to collaborate?
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
+
 
