@@ -38,7 +38,7 @@ Note that you must only use EGA palette with the graphics. If you use any non EG
 ## Trainer
 If you find the game too difficult, you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, falling stones or being in explosions will not kill you, but instead spawn money around you. You can abuse this feature by hitting the key ```R```. This explodes whatever is around you and replaces them with money. Try not blow up the exit door.
 
-![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshot.png)
+![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshots.png)
 
 ## What is reconstructed and what is not?
 Short answer: everything except the levels, their gold counts and times, general idea of the themes, their color space and one frame of each player character. Long answer below:
