@@ -4,7 +4,7 @@
 This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. In addition the tools features a trainer that allows playing in god mode.
 
 # Rockford and the history of the missing levels
-[Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
+[Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for multiple platforms, including DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
 
 Many did not know until the 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted Mastertronic in 2006, I was told that "they [the extra levels] were designed for a possible future add-on, which was never released as the developers decided to focus on releasing Rockford II instead". These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford).
 
