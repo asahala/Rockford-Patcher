@@ -4,7 +4,7 @@ import binascii
 import argparse
 
 """ ======================================================
-Rockford Patcher and trainer -- Aleksi Sahala 2023
+Rockford Patcher and trainer -- Aleksi Sahala 2023, 2025
 
                                 github.com/asahala
 
@@ -20,6 +20,8 @@ script. Set path in main() or simply put this script in
 your ROCKFORD directory.
 
 Enable god-mode in main() by setting god_mode = True
+
+Version 2.0 -- Now updates money point values!
 
 ==================================================== """
 
@@ -83,6 +85,32 @@ BYTES_TIME = [
     '8200a000aa008c00',
     '8c008c006e00b400']
 
+## Money point value before door opens
+BYTES_MONEY_V = [
+    '5000460019000f00',
+    '6e00190014003700',
+    '3c005f0055003700',
+    '7800460050005000',
+    '5a00140078003200',
+    '2800500050002d00',
+    '550032001e002d00',
+    'dc00fa0046002d00',
+    '6e001e0050007800',
+    'a0005a0032008813']
+
+## Money point value after door opens
+BYTES_MONEY_VD = [
+    '64005a0023001900',
+    '8c0028001e004b00',
+    '50007d006e004b00',
+    '96005a006e006e00',
+    '6e001e0096004600',
+    '3700640064004600',
+    '780050002d004100',
+    'fa002c015a003c00',
+    '8200280078009600',
+    'b4006e003c00e803']
+
 ## Menu graphics and level set
 FIL_NAMES = '43454c4c4d4150532e42494e004d454e552e46494c'
 ADD_NAMES = '43454c4c4d4150532e414444004d454e552e414444'
@@ -99,8 +127,9 @@ def patch_file(path, god_mode):
         hex_data = binascii.hexlify(exe.read()).decode('ascii').lower()
         map_data = binascii.hexlify(maps.read()).decode('ascii')
 
-        for values in (BYTES_MONEY, BYTES_TIME):
+        for values in (BYTES_MONEY, BYTES_TIME, BYTES_MONEY_V, BYTES_MONEY_VD):
             if ''.join(values) not in hex_data:
+                print(values)
                 print('Unknown ROCKFORD.EXE version.')
                 sys.exit()
                 
@@ -161,5 +190,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
+main()
     
