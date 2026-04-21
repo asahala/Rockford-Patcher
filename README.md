@@ -3,7 +3,7 @@
 # Summary
 This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets.
 
-# Rockford patcher and trainer
+# Rockford patcher and trainer 2.0
 [Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
 
 Many did not know that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted Mastertronic in 2006, I was told that they were designed for a possible future add-on, which was never released because they decided to release Rockford II instead. These levels were about feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music. The graphics have been reconstructed by using the information on some of the sprites and palettes found in the game's planar EGA files and the EXE. In the current version, big animation portraits are not included, only the tile sets and menu graphics.
@@ -69,5 +69,5 @@ Mastertronic still holds copyrights to the game, but it is generally considered 
 
 ## Version history
 * 2023 - Version 1.0: Initial release.
-* 2026 - Version 2.0: Added correct point values for collectibles.
+* 2026 - Version 2.0: Added correct point values for collectibles. I had completely overlooked these before!
 
