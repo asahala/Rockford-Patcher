@@ -48,7 +48,7 @@ If you find the game too difficult (Mastertronic purposefully made it significan
 
 ## How was the hidden content recovered and reconstructed?
 
-***Level data***: Extraction of the level data is easy, since all the hidden levels are in the CELLMAPS.BIN. The relevant statistics for these levels can be extracted from ROCKFORD.EXE. Full description of the hex values are available [here](https://www.mv.helsinki.fi/home/asahala/rockford/). All level data is 100% accurate and fully preserved.
+***Level data***: Extraction of the level data is easy, since all the hidden levels are in the CELLMAPS.BIN, which neatly interleaves the hidden content with the released levels ([see formatted CELLMAPS.BIN here](https://www.mv.helsinki.fi/home/asahala/rockford/cellmaps.html)). The relevant statistics for these levels can be extracted from ROCKFORD.EXE. Full description of the hex values are available [here](https://www.mv.helsinki.fi/home/asahala/rockford/). All level data is 100% accurate and fully preserved.
 
 ***Order of the themes:*** The order of the themes is based on the collectible names fround from the EXE from offset 7A0 - 7EF. It is not 100% certain which themes they refer to, but with a little reasoning all except jewels and gems are somewhat obvious. Clubs are for luck, notes for music and cups for the player. I have put scuba and miner in this order based on the palette definitions in the EXE. There is only one theme with a black background (offsets 9E3 - 9F2), and I assume that this belongs to the miner more likely than the blue background at offsets 95B - 95A, which logically seems more likely to be for the scuba.
 
