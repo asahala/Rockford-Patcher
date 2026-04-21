@@ -1,15 +1,16 @@
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/banner3.png)
 
 # Summary
-This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets.
+This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. In addition the tools features a trainer that allows playing in god mode.
 
-# Rockford patcher and trainer 2.0
+# Rockford and the history of the missing levels
 [Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
 
-Many did not know that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted Mastertronic in 2006, I was told that they were designed for a possible future add-on, which was never released because they decided to release Rockford II instead. These levels were about feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music. The graphics have been reconstructed by using the information on some of the sprites and palettes found in the game's planar EGA files and the EXE. In the current version, big animation portraits are not included, only the tile sets and menu graphics.
+Many did not know until the 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted Mastertronic in 2006, I was told that "they [the extra levels] were designed for a possible future add-on, which was never released as the developers decided to focus on releasing Rockford II instead". These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford).
 
-This patcher/trainer allows you to play the hidden level set, as well as turn on some cheats.
+The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music. Although the levels are fully recoverable, only a small fraction of the graphics can be found in the game files: namely the palettes and the player character sprites.
 
+# Supported versions
 This tool is tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). It has not been tested with the version with infinite lives, since I have not found this version myself. It also does not work with the 18kb ROCKFORD.EXE due to encryption.
 
 The VGA "Arcade" version of Rockford is currently not supported, since it is fairly rare.
