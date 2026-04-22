@@ -72,9 +72,17 @@ Unfortunately, it is impossible to recover the exact colors used in the original
 
 Only one frame of each hidden character sprite is available in the tilesets. I have used them as the reference point to draw the character animations. All enemies, tiles, walls etc. are pure ad hoc drawings, except for the collectibles that are based on their respective names in the EXE. Thanks to palette definitions that can be found from in the EXE at offsets 929 - 9F3, I could grasp a general idea of the color schemes in each theme. For example, that the miner should be pretty dark and luck fairly saturated.
 
-Some tilesets have unused assets, such as the steam locomotive for Cowboy. I've reused these assets for the hidden themes, e.g. the miner uses this steam locomotive as the worm sprite. All tilesets also contain an item for extra life, which is not used in the game at all.
-
 To make editing the graphics files easier, I have re-adjusted all the hidden theme EGA palettes from the lazily converted Amiga OCS palettes into full EGA (this prevents losing colors due to two similar Amiga colors converging into one EGA color). As Rockford does not allow changing the background color to any other palette index (represented in octal numbers) than what's in the first offset in the EXE for each theme, all palettes except miner consist only of 15 colors. To guaranteed that black is available in all palettes, I have replaced one unused color in some tilesets with it. The original color is shown in the tilesets, but the game re-maps them into black automatically. This is, why e.g. the Scuba tileset seems to have bright green shadows, although in the game they are actually rendered in black.
+
+## What is exactly known about the hidden graphics sets?
+
+Since I have now recovered some objective information on the lost graphics in the Amiga version, the reconstructions in this patcher are outdated. We know for sure the following:
+
+**Scuba** collects diamond shaped yellow gems and the boulders are blue seashels. Magic walls feature star fishes. One enemy is probably a dark red anglerfish.
+
+**Player** collects golden cups, which are surprisingly similar to my original reconstruction. The boulders are black bowling balls and the the worms' head seem to be blue footbal helmets.
+
+**Luck** is actually a gambler, not a leprechaun. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget.
 
 ## Want to collaborate?
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
