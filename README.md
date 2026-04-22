@@ -10,7 +10,11 @@ Many did not know until the early 2000s that Rockford also included 20 **hidden 
 
 These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford), and it is present in both PC versions of the game, EGA and VGA, as well as the original Amiga OCS version (cf. MAPS file that is exactly the same as the CELLMAPS.BIN on PC).
 
-The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun/gambler) and music. Although the levels, names of the worlds and their collectibles are fully recoverable, only a small fraction of the actual graphics can be found in the game files: namely the general palettes and the player character sprites. Below is an example of the hidden sprites found in BODY.FIL (the palette is correct only for the doctor sprite). The classic "Rockford" sprite with the striped shirt occurs in all tilesets, but its purpose is unknown. Since it replaces the "PLAYER" sprite in some tilesets, it is possible that the football player was originally supposed to use the classic Boulder Dash tileset, but ultimately it was replaced by a new theme.
+The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun/gambler) and music. Although the levels, names of the worlds and their collectibles are fully recoverable, only a small fraction of the actual graphics can be found in the game files: namely the general palettes and the player character sprites. 
+
+Interestingly, the Atari ST version of Rockford features three of these hidden themes in its [back cover](https://www.atarimania.com/game-atari-st-rockford-the-arcade-game_10427.html). Yet, none of these themes depicted in the box: scuba, football player and the gambler exist in published game. This still proves that the graphic sets were fully made for some versions of the game, but for some reason they were left for a future release that never materialized.
+
+Below is an example of the hidden sprites found in the PC EGA version's BODY.FIL (the palette is correct only for the doctor sprite). The classic "Rockford" sprite with the striped shirt occurs in all tilesets, but its purpose is unknown. Since it replaces the "PLAYER" sprite in some tilesets, it is possible that the football player was originally supposed to use the classic Boulder Dash tileset, but ultimately it was replaced by a new theme.
 
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/sprites.png)
 
@@ -70,8 +74,6 @@ Only one frame of each hidden character sprite is available in the tilesets. I h
 
 Some tilesets have unused assets, such as the steam locomotive for Cowboy. I've reused these assets for the hidden themes, e.g. the miner uses this steam locomotive as the worm sprite. All tilesets also contain an item for extra life, which is not used in the game at all.
 
-The Atari ST version of the game features three of these hidden themes in its [back cover](https://www.atarimania.com/game-atari-st-rockford-the-arcade-game_10427.html), although none of them exist in published game. This means, that the graphic sets were fully made for some versions of the game, but for some reason they were discarded. Unfortunately, the box art pictures are blurry and it is difficult to reconstruct the tilesets based on them.
-
 To make editing the graphics files easier, I have re-adjusted all the hidden theme EGA palettes from the lazily converted Amiga OCS palettes into full EGA (this prevents losing colors due to two similar Amiga colors converging into one EGA color). As Rockford does not allow changing the background color to any other palette index (represented in octal numbers) than what's in the first offset in the EXE for each theme, all palettes except miner consist only of 15 colors. To guaranteed that black is available in all palettes, I have replaced one unused color in some tilesets with it. The original color is shown in the tilesets, but the game re-maps them into black automatically. This is, why e.g. the Scuba tileset seems to have bright green shadows, although in the game they are actually rendered in black.
 
 ## Want to collaborate?
@@ -84,3 +86,5 @@ Mastertronic / First Star Software still holds copyrights of the game, but it is
 * 2023 - Version 1.0: Initial release.
 * 2026 - Version 2.0: Added correct point values for collectibles. I had completely overlooked these before!
 
+## Future plans
+Redraw the graphics using the Atari ST evidence.
