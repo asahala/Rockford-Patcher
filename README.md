@@ -70,6 +70,8 @@ Only one frame of each hidden character sprite is available in the tilesets. I h
 
 Some tilesets have unused assets, such as the steam locomotive for Cowboy. I've reused these assets for the hidden themes, e.g. the miner uses this steam locomotive as the worm sprite. All tilesets also contain an item for extra life, which is not used in the game at all.
 
+The Atari ST version of the game features three of these hidden themes in its [back cover](https://www.atarimania.com/game-atari-st-rockford-the-arcade-game_10427.html), although none of them exist in published game. This means, that the graphic sets were fully made for some versions of the game, but for some reason they were discarded. Unfortunately, the box art pictures are blurry and it is difficult to reconstruct the tilesets based on them.
+
 To make editing the graphics files easier, I have re-adjusted all the hidden theme EGA palettes from the lazily converted Amiga OCS palettes into full EGA (this prevents losing colors due to two similar Amiga colors converging into one EGA color). As Rockford does not allow changing the background color to any other palette index (represented in octal numbers) than what's in the first offset in the EXE for each theme, all palettes except miner consist only of 15 colors. To guaranteed that black is available in all palettes, I have replaced one unused color in some tilesets with it. The original color is shown in the tilesets, but the game re-maps them into black automatically. This is, why e.g. the Scuba tileset seems to have bright green shadows, although in the game they are actually rendered in black.
 
 ## Want to collaborate?
