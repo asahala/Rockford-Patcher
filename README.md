@@ -4,11 +4,13 @@
 This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. In addition the tools features a trainer that allows playing in god mode.
 
 # Rockford and the history of the missing levels
-[Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 for multiple platforms, including DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
+[Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in 1988 on multiple platforms, including Amiga and MS-DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
 
-Many did not know until the 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted the people involved with Mastertronic in 2006, I was told that "they [the extra levels] were designed for a possible future add-on, which was never released as the developers decided to focus on releasing Rockford II instead". These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford).
+Many did not know until the early 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted the people involved with Mastertronic in 2006, I was told that "they [the extra levels] were designed for a possible future add-on, which was never released as the developers decided to focus on releasing Rockford II instead". These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford), and it is present in both PC versions of the game, EGA and VGA.
 
-The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music. Although the levels are fully recoverable, only a small fraction of the graphics can be found in the game files: namely the palettes and the player character sprites.
+The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun) and music. Although the levels, names of the worlds and their collectibles are fully recoverable, only a small fraction of the actual graphics can be found in the game files: namely the palettes and the player character sprites (see below an example from BODY.FIL, but note that the palettes are distorted).
+
+![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/sprites.png)
 
 # Supported versions
 This tool is tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). It has not been tested with the version with infinite lives, since I have not found this version myself. It also does not work with the 18kb ROCKFORD.EXE due to encryption.
