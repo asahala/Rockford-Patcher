@@ -79,13 +79,13 @@ To make editing the graphics files easier, I have re-adjusted all the hidden the
 
 ## What is exactly known about the hidden graphics sets?
 
-Since I have now recovered some objective information on the lost graphics in the Amiga version, the reconstructions in this patcher are outdated. We know for sure the following:
+Since I have now recovered some objective information on the lost graphics in the Amiga version. We know for sure the following:
 
-**Scuba** collects diamond shaped yellow gems and the boulders are blue seashels. Magic walls feature star fishes. One enemy is probably a dark red anglerfish.
+**Scuba** collects diamond shaped yellow gems and the boulders are blue seashels. Magic walls feature star fishes. One enemy is probably a dark red anglerfish, but the screenshots are too blurry to say for certain.
 
-**Player** collects golden cups, which are surprisingly similar to my original reconstruction. The boulders are black bowling balls and the the worms' head seem to be blue footbal helmets.
+**Player** collects golden cups, which are surprisingly similar to my original reconstruction. The boulders are black bowling balls and one of the worm's heads seems to be blue football helmet.
 
-**Luck** is actually a gambler, not a leprechaun. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget.
+**Luck** is actually a gambler, not a leprechaun as I thought in 2023 in the initial version. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget, but it is impossible to say for certain.
 
 ## Want to collaborate?
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
