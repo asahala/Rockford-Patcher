@@ -1,34 +1,37 @@
-![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/banner3.png)
+![alt text](https://i.imgur.com/hHH2m0m.png)
 
 # Summary
-This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. In addition the tools features a trainer that allows playing in god mode.
+This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. The tool also features a trainer that allows playing in god mode.
+
+# State of development
+* Gambler theme is fully completed, including portrait animations and full tile-set (even for assets that do not exist in the gambler levels)
+* The other four themes contain all tiles necessary to play the levels, but they will use animations from the original five themes on level completion, loss and running out of time.
+* Music and Miner graphics will be reworked at some point.
 
 # Rockford and the history of the missing levels
 [Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in [1987 and 1988 on multiple platforms](https://pixelatedarcade.com/games/rockford-the-arcade-game/releases), including Amiga and MS-DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
 
-Many did not know until the early 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files. When I contacted the people involved with Mastertronic in 2006, I was told that "they [the extra levels] were designed for a possible future add-on, which was never released as the developers decided to focus on releasing Rockford II instead" (which was never released to my knowledge). The original Amiga version contains a hidden message (aimed for crackers who intended to remove the copy protection) that implies that the Amiga version was rushed. It remains unclear whether the original plan was to release all the themes at once for the Amiga version: "I must apologise for the use of amigados file format, but we were in a bit of rush and we needed to get it out on time, so we couldn't be bothered to use Trackdisk or do our own disk format. Never fear though! I have nearly perfected my mega-hard-to-hack disk format that I may use on future Melbourne House/Mastertronic games, to add a little spice to your lives!"
+Many did not know until the early 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via hacking the game files (ROCKFORD.EXE and CELLMAPS.BIN). When I contacted in 2006 people involved with Mastertronic back in the days, I was told that the the extra levels were designed for a possible future add-on, which never materialized. Since the game sold only 4000-5000 copies and distributing extra content on disks was expensive, this decision is understandable. When I contacted Simon Plumbe from the Mastertronic collector's archive, he considered this also a possiblity, but he also mentioned that these hidden themes could have been the original five worlds for Rockford, which were later replaced by the ones we all know (perhaps because they were considered more interesting). 
 
-These days the existence of this hidden content is [well-acknowledged](https://moddingwiki.shikadi.net/wiki/Rockford), and it is present in both PC versions of the game, EGA and VGA, as well as the original Amiga OCS version (cf. MAPS file that is exactly the same as the CELLMAPS.BIN on PC).
+One reason for cutting this content off could have simply been that the developers wanted to fit the whole game into a single disk (Amiga release took 880 kb) to decrease the distribution costs. Simon Plumbe suggested that perhaps the developers simply forgot (or did not care) to delete the references to the removed content in the executable. 
 
-The game files suggest that these levels were supposed to feature five additional graphic sets called scuba, miner, player (sports), luck (leprechaun/gambler) and music. Although the levels, names of the worlds and their collectibles are fully recoverable, only a small fraction of the actual graphics can be found in the game files: namely the general palettes and the player character sprites. 
+The names of these lost worlds are recoverable from ROCKFORD.EXE with a hex editor, where they are referred to as SCUBA, PLAYER, MUSIC, LUCK and MINER. The Amiga version calls them SCUBA, PLAYER, COND, GAMB and MINER. From these we can deduce that these worlds featured a scuba diver, football player, music conductor, gambler and miner, who collected gems, cups, notes, clubs and jewels, respectively. The Amiga version refers to the jewels as diamonds. 
 
-Interestingly, the Atari ST version of Rockford features three of these hidden themes in its [back cover](https://www.atarimania.com/game-atari-st-rockford-the-arcade-game_10427.html), but the box states that they are from the Amiga version. This still proves that the graphic sets were fully made for some versions of the game, at least for Amiga, but for some reason they were left for a future release that never materialized.
-
-Below is an example of the hidden sprites found in the PC EGA version's BODY.FIL (the palette is correct only for the doctor sprite). The classic "Rockford" sprite with the striped shirt occurs in all tilesets, but its purpose is unknown. Since it replaces the "PLAYER" sprite in some tilesets, it is possible that the football player was originally supposed to use the classic Boulder Dash tileset, but ultimately it was replaced by a new theme.
+For the PC's EGA and VGA versions, all graphics that exist for these lost worlds are the player character sprites (one frame each), which are hidden in the .FIL files in the EGA version and in the .SCM files in the VGA version. Also the general color schemes can be recovered from ROCKFORD.EXE. The sprites for EGA version are shown below (with distorted palettes), including the classic Boulder Dash guy, which of purpose here is unknown. However, as there are placeholders for two classic Boulder Dash guys in different colored shirts, it cannot be excluded that the developers once planned on adding a two-player mode.
 
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/sprites.png)
 
-Since the "Rockford" sprite also occurs in two different color variations elsewhere in the tileset, it is possible that there were plans to add a two-player mode. Unfortunately, I did not ask about this in 2006 when I was in conctact with the publisher, as I was still unable to parse the planar EGA files. However, this is probably something only the programmers of the game could answer.
+Despite these are the only sprites that exist on PC, it is known that the tile sets and animatiosn were fully created at least for SCUBA, PLAYER and LUCK on Amiga, since screenshots of these themes can be found in the back cover of the Atari ST release of Rockford. Unfortunately the screenshots are small and blurry, since they have been photographed from the screen. Yet, they give some hints how these themes looked like. It is likely that the MUSIC and MINER themes also fully existed, but no screenhots of them survive. Whether these tile sets were ever converted to PC fully remains unknown.
 
 # Supported versions
-This tool is tested with the [ROCKFORD.EXE that is 29963 bytes in size](https://www.xtcabandonware.com/game/786/rockford). It has not been tested with the version with infinite lives, since I have not found this version myself. It also does not work with the 18kb ROCKFORD.EXE due to encryption.
+This tool is tested with the ROCKFORD.EXE that is 29963 bytes in size. It has not been tested with the version with infinite lives, because I have not found this version myself. It does not work with the 18kb ROCKFORD.EXE due to file encryption.
 
-The VGA "Arcade" version of Rockford is currently not supported, since it is fairly rare.
+The VGA "Arcade" version of Rockford is currently not supported, but I will perhaps add the support in the future.
 
 ## Enabling hidden levels
 Either, copy all files from the folder ```gfx``` to your ROCKFORD directory. Then copy ```rockford_patcher.py``` into you your ROCKFORD directory and run it. You can just open it in Python's IDLE and hit F5. After this you can play the hidden levels by running ```ADDON.EXE```, but for this you'll need an old Dos machine or [DOSBox](https://www.dosbox.com/).
 
-Alternatively, you can also just [download the ```addon.exe``` from here](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip).
+Alternatively, you can also just [download the ```addon.exe``` from here](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip). This version allows only playing the hidden content and does not contain the original game files for copyright reasons.
 
 ## For modders: Converting planar EGA to PNG and back
 Converting graphics requires [PIL](https://pypi.org/project/Pillow/) (tested on version 8.1.0).
@@ -52,9 +55,9 @@ Works also with the animation files (with extension CAR).
 Note that you must only use EGA palette with the graphics. If you use any non EGA colors, my conversion script will quantize them into EGA and it can look ugly. The safest option is to use mspaint and color picker, or you can use my tool [Bitcrush](https://github.com/asahala/Bitcrush) to convert tiles into EGA more elegantly. 
 
 ## Trainer
-If you find the game too difficult (Mastertronic purposefully made it significantly more difficult than the original game!), you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, being crushed by falling stones or being in explosions will not kill you, but instead spawn money around you! You can abuse this feature by hitting the key ```R```. This explodes most tiles and objects around you and replaces them with money. Try not blow up the exit door.
+If you find the game too difficult (Mastertronic purposefully made the extra levels significantly more difficult than the original game!), you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, being crushed by falling stones or being in explosions will not kill you, but instead spawn money around you! You can abuse this feature by hitting the key ```R```. This explodes most tiles and objects around you and replaces them with money. Try not blow up the exit door.
 
-![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/screenshots.png)
+![alt text](https://i.imgur.com/7kwGn2t.png)
 
 ## How was the hidden content recovered and reconstructed?
 
@@ -88,7 +91,7 @@ Since I have now recovered some objective information on the lost graphics in th
 I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. All the big animations for the hidden themes are still undone.
 
 ## Copyrights
-Mastertronic / First Star Software still holds copyrights of the game, but it is generally considered abandonware and available to play at Playold and several other sites. [Rrockford-addon.zip](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip) containing ```addon.exe``` (that is, prepatched ```rockford.exe``` for those who don't want to do it with Python) allows you only play the hidden content and does not include original game data. Therefore, in order to play the original levels with the original graphics, you will have to get Rockford from somewhere else, but who knows [where](https://www.xtcabandonware.com/game/786/rockford)?
+Mastertronic / First Star Software still holds copyrights of the game, but it is available at many retro game sites and playable at Playold on browser. The [Rockford-addon.zip](https://www.mv.helsinki.fi/home/asahala/rockford/rockford-disk2.zip) containing ```addon.exe``` (that is, prepatched ```rockford.exe``` for those who don't want to do it with Python) allows you only play the hidden content and does not include original game data. Therefore, in order to play the original levels with the original graphics, you will have to get Rockford from somewhere else, but who knows [where](https://www.xtcabandonware.com/game/786/rockford)?
 
 ## Version history
 * 2023 - Version 1.0: Initial release.
