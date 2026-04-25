@@ -4,8 +4,8 @@
 This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. The tool also features a trainer that allows playing in god mode.
 
 # State of development
-* Gambler theme is fully completed, including portrait animations and full tile-set (even for assets that do not exist in the gambler levels)
-* The other four themes contain all tiles necessary to play the levels, but they will use animations from the original five themes on level completion, loss and running out of time.
+* Gambler, Scuba and Player themes are completed. Gambled and Scuba contain also all assets that are not required in their level sets (worms, taps etc.).
+* The two remaining themes contain all tiles necessary to play the levels, but they will use animations from the original five themes on level completion, loss and running out of time.
 * Music and Miner graphics will be reworked at some point.
 * Note that the zipped Disk 2 does not contain the latest graphics yet! For them you need to use the ones in the gfx folder and use the patcher on your ```rockford.exe```
 
