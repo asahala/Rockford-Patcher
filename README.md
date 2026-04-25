@@ -7,6 +7,7 @@ This tool enables the hidden level set in Rockford with correct level times, mon
 * Gambler theme is fully completed, including portrait animations and full tile-set (even for assets that do not exist in the gambler levels)
 * The other four themes contain all tiles necessary to play the levels, but they will use animations from the original five themes on level completion, loss and running out of time.
 * Music and Miner graphics will be reworked at some point.
+* Note that the zipped Disk 2 does not contain the latest graphics yet! For them you need to use the ones in the gfx folder and use the patcher on your ```rockford.exe```
 
 # Rockford and the history of the missing levels
 [Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in [1987 and 1988 on multiple platforms](https://pixelatedarcade.com/games/rockford-the-arcade-game/releases), including Amiga and MS-DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor. 
