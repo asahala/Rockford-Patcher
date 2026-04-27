@@ -62,7 +62,7 @@ Note that you must only use EGA palette with the graphics. If you use any non EG
 ## Trainer
 If you find the game too difficult (Mastertronic purposefully made the extra levels significantly more difficult than the original game!), you can set on god-mode by setting ```god_mode = True``` in the ```main()``` function. After this, colliding with enemies, being crushed by falling stones or being in explosions will not kill you, but instead spawn money around you! You can abuse this feature by hitting the key ```R```. This explodes most tiles and objects around you and replaces them with money. Try not blow up the exit door.
 
-![alt text](https://i.imgur.com/7kwGn2t.png)
+![alt text](https://i.imgur.com/gCQ97fy.png)
 
 ## How was the hidden content recovered and reconstructed?
 
