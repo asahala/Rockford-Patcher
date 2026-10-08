@@ -92,7 +92,7 @@ If you find the game too difficult, you can set a god-mode on by setting ```god_
 
 This section briefly explains the history of this reconstruction.
 
-![alt text]([https://i.imgur.com/gCQ97fy.png](https://www.mv.helsinki.fi/home/asahala/rockford/preview.png))
+![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/preview.png)
 
 ***Level data***: Extraction of the level data is easy, since all the hidden levels are in the ```CELLMAPS.BIN```, which neatly interleaves the hidden content with the released levels ([see formatted CELLMAPS.BIN here](https://www.mv.helsinki.fi/home/asahala/rockford/cellmaps.html)). The relevant statistics for these levels can be extracted from ```ROCKFORD.EXE```. Full description of the hex values are available [here](https://www.mv.helsinki.fi/home/asahala/rockford/). All level data is 100% accurate and fully preserved.
 
