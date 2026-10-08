@@ -101,11 +101,9 @@ To make editing the graphics files easier, I have re-adjusted all the hidden the
 
 ## What is exactly known about the hidden graphics sets?
 
-Since I have now recovered some objective information on the lost graphics in the Amiga version. We know for sure the following:
+Since I have now recovered some objective information on the lost graphics in the Atari ST version and the 1987 EGA version. We know for sure the following:
 
-**Scuba** collects diamond shaped yellow gems and the boulders are blue seashels. Magic walls feature star fishes. One enemy is probably a dark red anglerfish, but the screenshots are too blurry to say for certain.
-
-**Player** collects golden cups, which are surprisingly similar to my original reconstruction. The boulders are black bowling balls and one of the worm's heads seems to be blue football helmet.
+**Scuba** and **Player** graphics are fully recovered as of October 2026 thanks to the discovered 1987 EGA version.
 
 **Luck** is actually a gambler, not a leprechaun as I thought in 2023 in the initial version. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget, but it is impossible to say for certain.
 
