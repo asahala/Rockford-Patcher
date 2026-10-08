@@ -41,7 +41,9 @@ To me, these graphics look very unfinished and subpar in comparison to the well-
 
 This early version of the game contain two 5.25" disks with five themes. The first disk includes themes 1-3, namely HUNTER, SCUBA and COOK, and the disk 2 extends them with the PLAYER and the COWBOY themes. Therefore it reads the CELLMAPS.BIN in a linear order instead of skipping every other group of four levels as in the most commonly known released game. This order seems odd, since the difficulty does not progress linearly, and thus reordering the levels was likely a conscious design choice.
 
-I will add the possibility to use the real EGA graphics sets in the future, but I will preserve the reconstructed graphics (with some updates) too.
+The 1987 version does not contain the menu at all, but allows players to switch worlds in-game using the W key. Thus the world selection graphics do not exist. In addition, this version of the game contains unlimited lives, and upon completion of the game, it simply returns the player back to the first world, the HUNTER.
+
+I will add the possibility to use the real EGA graphics sets in the future, but I will preserve the reconstructed graphics (with some updates) too due to the unfinished looks of the original tile sets.
 
 # Supported versions
 This tool is tested with the ROCKFORD.EXE that is 29963 bytes in size. It has not been tested with the version with infinite lives, because I have not found this version myself. It does not work with the 18kb ROCKFORD.EXE due to file encryption.
