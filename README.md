@@ -63,11 +63,11 @@ As a side note, it seems that the developers recycled some ideas from the scrapp
 It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
 
 * 20 extra levels ```CELLMAPS.BIN``` 
-* Introductory animations labeled as NEW in ```*.CAR```
+* Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release.
 * Placeholders for unused player characters in ```*.FIL```
 * BoulderDash guy sprites in ```*.FIL```
 * Extra life collectible in ```*.FIL```. These are visible in the Amiga showrooms but on PC they cannot be placed on the map (it's not mapped to any hex value). It is possible that these were removed since the PC version was supposed to have infinite lives.
-* ```Enter world 1-5. (Esc exits)``` string in ```ROCKFORD.EXE```. This is not accessible since the ```W``` menu was removed from the 1988 release.
+* ```Enter world 1-5. (Esc exits)``` string in ```ROCKFORD.EXE```. This is not accessible since the ```W``` menu was removed from the 1988 release in place of the graphical world selection menu ```MENU.FIL``` with the title cards.
 * ```Please insert disk 2``` string in ```ROCKFORD.EXE```. This is only shown on PC in the 1987 5.25" floppy version. The DISK 2 contains the PLAYER and COWBOY themes, not the hidden themes as was speculated in the past!
 * References to the level times (0EFE -> 0F4D), collectible counts (0D1E -> 0D6D), collectible point values before door opens (0D6E -> 0DED), collectible point values after the door opens (0DBE -> 0E5D), palettes (0929 -> 09F2), and the names of the collectibles and game files used in the hidden themes (07A0 -> 08DF) in ```ROCKFORD.EXE```
 
