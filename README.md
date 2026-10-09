@@ -36,7 +36,7 @@ It is unknown whether the MINER and MUSIC themes were ever created for the Amiga
 ![Screenshots](https://i.imgur.com/CExXQRn.png)
 (Image: Details from the Atari ST box showing early Amiga screenshots)
 
-![Screenshots2]([https://i.imgur.com/CExXQRn.png](https://www.mv.helsinki.fi/home/asahala/rockford/amigaback.png))
+![Screenshots2](https://www.mv.helsinki.fi/home/asahala/rockford/amigaback.png)
 (Image: Details from the Amiga box, displaying a fish and an octopus from the SCUBA theme.)
 
 Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version. These animations, however, exist in the .CAR files and are titled "NEW". The introductory animations were replaced with title cards in the 1988 PC release. Below is a screenshot of the HUNTER showroom on Amiga (right) and the reconstructed LUCK showroom on PC (left). Note that the water droplets or fire cannot be placed on a level and thus they have been replaced with taps, and that I mistakenly swapped the stones with collectibles and vice versa. The animation is playing in the middle.
