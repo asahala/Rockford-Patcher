@@ -63,7 +63,7 @@ As a side note, it seems that the developers recycled some ideas from the scrapp
 It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
 
 * 20 extra levels ```CELLMAPS.BIN``` 
-* Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release.
+* Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release. The title cards are based on these animations.
 * Placeholders for unused player characters in ```*.FIL```
 * BoulderDash guy sprites in ```*.FIL```
 * Extra life collectible in ```*.FIL```. These are visible in the Amiga showrooms but on PC they cannot be placed on the map (it's not mapped to any hex value). It is possible that these were removed since the PC version was supposed to have infinite lives.
