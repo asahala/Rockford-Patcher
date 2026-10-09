@@ -31,9 +31,13 @@ In 2006, when I contacted the people involved with Mastertronic (but not Rockfor
 
 Another of his suggestions was that the game was originally planned to include ten themes and 40 levels, but half of them were cut off as Mastertronic wanted to distribute the exactly same game on 8-bit and 16-bit platforms, the former not really supporting large amounts of files. Thus, the developers perhaps only preserved the themes they considered the best.
 
-It is unknown whether the MINER and MUSIC themes were ever created for the Amiga version either, but the Atari ST version's box contains screenshots of the Amiga version's SCUBA, PLAYER and GAMBLER (LUCK) themes (see below). It is fairly funny that the Atari ST version actually came with the traditional five themes instead of the ones shown in the back of the box, and with graphics that were completely different from the Amiga version. Quite misleading marketing.
+It is unknown whether the MINER and MUSIC themes were ever created for the Amiga version either, but the Atari ST version's box contains screenshots of the Amiga version's SCUBA, PLAYER and GAMBLER (LUCK) themes (see below). In addition, some clues of the SCUBA theme actually existing comes from the Amiga release's box, containing drawings of some objects in the game: an apple, bat, heart, parrot, egg yolk, and fish and an octopus! (see image below)It is fairly funny that the Atari ST version actually came with the traditional five themes instead of the ones shown in the back of the box, and with graphics that were completely different from the Amiga version. Quite misleading marketing.
 
 ![Screenshots](https://i.imgur.com/CExXQRn.png)
+(Image: Details from the Atari ST box showing early Amiga screenshots)
+
+![Screenshots2]([https://i.imgur.com/CExXQRn.png](https://www.mv.helsinki.fi/home/asahala/rockford/amigaback.png))
+(Image: Details from the Amiga box, displaying a fish and an octopus from the SCUBA theme.)
 
 Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version. These animations, however, exist in the .CAR files and are titled "NEW". The introductory animations were replaced with title cards in the 1988 PC release. Below is a screenshot of the HUNTER showroom on Amiga (right) and the reconstructed LUCK showroom on PC (left). Note that the water droplets or fire cannot be placed on a level and thus they have been replaced with taps, and that I mistakenly swapped the stones with collectibles and vice versa. The animation is playing in the middle.
 
