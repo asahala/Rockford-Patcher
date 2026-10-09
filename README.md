@@ -35,7 +35,7 @@ It is unknown whether the MINER and MUSIC themes were ever created for the Amiga
 
 ![Screenshots](https://i.imgur.com/CExXQRn.png)
 
-Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version, although they exist in the .CAR files. The introductory animations were replaced with the title cards in the 1988 PC release, shown in the world selection menu. Below is a screenshot of the HUNTER showroom on Amiga (right) and the reconstructed LUCK showroom on PC (left). 
+Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version, although they exist in the .CAR files. The introductory animations were replaced with the title cards in the 1988 PC release, shown in the world selection menu. Below is a screenshot of the HUNTER showroom on Amiga (right) and the reconstructed LUCK showroom on PC (left). Note that the water droplets or fire cannot be placed on a level and thus they have been replaced with taps, and that I mistakenly swapped the stones with collectibles and vice versa. 
 
 ![showroom](https://www.mv.helsinki.fi/home/asahala/rockford/addon_033.png)
 
