@@ -35,7 +35,9 @@ It is unknown whether the MINER and MUSIC themes were ever created for the Amiga
 
 ![Screenshots](https://i.imgur.com/CExXQRn.png)
 
-Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version, although they exist in the .CAR files. The introductory animations were replaced with the title cards in the 1988 PC release, shown in the world selection menu.
+Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme. These rooms also play the introductory animation for the theme, which is never shown in the PC version, although they exist in the .CAR files. The introductory animations were replaced with the title cards in the 1988 PC release, shown in the world selection menu. Below is a screenshot of the HUNTER showroom on Amiga (right) and the reconstructed LUCK showroom on PC (left). 
+
+![showroom](https://www.mv.helsinki.fi/home/asahala/rockford/addon_033.png)
 
 In September 2026, Daniel Grimes, the developer of a [browser-executable version of Rockford](https://rockford.dbhq.uk) informed me that an early PC version of Rockford published in December 1987 contained two of the hidden level sets and their graphics. This was a 5.25" floppy disk version that comprised two two disks, one containing the HUNTER, SCUBA and COOK themes, and the other containing the PLAYER and the COWBOY themes. This version had been available on Archive.org since 2014, but completely overlooked by me and other people involved in exploring and hacking this game. The tile sets are shown below, followed by in-game screenshots:
 
