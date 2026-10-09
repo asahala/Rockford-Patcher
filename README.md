@@ -39,9 +39,9 @@ Some of the screenshots are from the tileset showrooms that introduce player how
 
 ![showroom](https://www.mv.helsinki.fi/home/asahala/rockford/addon_033.png)
 
-In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches (see below).
+In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches. The title cards and their origins are shown below.
 
-![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations.gif)
+![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations2.gif)
 
 In September 2026, Daniel Grimes, the developer of a [browser-executable version of Rockford](https://rockford.dbhq.uk) informed me that an early PC version of Rockford published in December 1987 contained two of the hidden level sets and their graphics. This was a 5.25" floppy disk version that comprised two disks, one containing the HUNTER, SCUBA and COOK themes, and the other containing the PLAYER and the COWBOY themes. This version had been available on Archive.org since 2014, but completely overlooked by me and other people involved in exploring and hacking this game. The tile sets are shown below, followed by in-game screenshots:
 
