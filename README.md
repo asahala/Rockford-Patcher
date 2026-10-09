@@ -173,10 +173,10 @@ I'm not a graphics artist. If you you are, and are interested in collaborating t
 Mastertronic / First Star Software still holds copyrights of the game, but it is available at many retro game sites and playable at Playold on browser. For copyright reasons the Original game graphics (HUNTER, COOK, COWBOY, SPACE, BODY) are not included in this Github. In case you want to use the Patcher yourself, you will have to get Rockford from somewhere, but who knows [where](https://www.xtcabandonware.com/game/786/rockford).
 
 # Credits
-* Michael Eberlein: information on the VGA graphics format
-* Daniel Grimes: informing me about the 1987 release with Scuba and Player tilesets
-* Simon Plumbe: some details on the history of Mastertronic and Rockford
-* Adam Nielsen: Camoto Studio and the first access into the planar EGA files
+* Michael Eberlein: parsing the VGA format in 2026 and informing me about the planar EGA in 2018
+* Daniel Grimes: informing me about the 1987 release with Scuba and Player tilesets in 2026
+* Simon Plumbe: giving valuable input and details on the history of Mastertronic and Rockford in 2026
+* Adam Nielsen: Camoto Studio and access into the planar EGA files
 * Atari Legend: Atari ST box scans in a reasonable resolution
 
 # Version history
