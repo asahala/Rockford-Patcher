@@ -134,7 +134,7 @@ Since I have now recovered some objective information on the lost graphics in th
 
 **Scuba** and **Player** graphics are fully recovered as of October 2026 thanks to the discovered 1987 EGA version. The Patcher comes now with the exact tilesets and animations and the reconstructed ones, since the original graphics look fairly dull and unfinished.
 
-**Luck** is actually a gambler, not a leprechaun as I thought in 2023 in the initial version. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget, but it is impossible to say for certain. Yet this theme is about 75% accurate to the Amiga screenshots.
+**Luck** is actually a gambler, not a leprechaun as I thought in 2023 in the initial version of the patcher. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget, but it is impossible to say for certain. The outer walls are probably some kind of dragon heads but it's impossible to say. Thus I've taken some freedom in drawing the tiles, yet this theme is about 75% accurate to the Amiga screenshots.
 
 **Music** and **Miner** are fully reconstructed. Only a single frame of the player sprites are original, but with guessed color palette. It remains unknown if these graphics sets ever existed.
 
