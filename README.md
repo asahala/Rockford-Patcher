@@ -3,7 +3,7 @@
 # Summary
 This tool enables the hidden level set in Rockford with correct level times, money collection amounts and point values, as well as gives the hidden themes reconstructed tile sets. The tool also features a trainer that allows playing in god mode.
 
-Download [Rockford Lost Worlds Version 3.0](https://www.mv.helsinki.fi/home/asahala/rockford/Rockford-Disk2-Version3.zip) and run it in DosBox. This version comes with two executables, ```ADDON.EXE``` runs the game with reconstructed graphics based on the Amiga screenshots. ```ORIGINAL.EXE``` runs the game with the EGA tilesets and animations for SCUBA and PLAYER that are 100% faithful to the original EGA graphics. However, these graphics look somewhat unfinished.
+Download [Rockford Lost Worlds Version 3.0](https://www.mv.helsinki.fi/home/asahala/rockford/Rockford-Disk2-Version3.zip) and run it on DosBox. This version comes with two executables: ```ADDON.EXE``` runs the game with reconstructed graphics based on the Amiga screenshots. ```ORIGINAL.EXE``` runs the game with the EGA tilesets and animations for SCUBA and PLAYER that are 100% faithful to the original EGA graphics. However, these graphics look somewhat unfinished.
 
 # State of development
 * SCUBA, PLAYER and LUCK are fully completed with title cards, tilesets and animations.
