@@ -60,7 +60,16 @@ As a side note, it seems that the developers recycled some ideas from the scrapp
 ![Compare](https://www.mv.helsinki.fi/home/asahala/rockford/comparison.png)
 
 ## Conclusions
-It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either.
+It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
+
+* 20 extra levels ```CELLMAPS.BIN``` 
+* Introductory animations labeled as NEW in ```*.CAR```
+* Placeholders for unused player characters in ```*.FIL```
+* BoulderDash guy sprites in ```*.FIL```
+* Extra life collectible in ```*.FIL```. These are visible in the Amiga showrooms but on PC they cannot be placed on the map (it's not mapped to any hex value). It is possible that these were removed since the PC version was supposed to have infinite lives.
+* ```Enter world 1-5. (Esc exits)``` string in ```ROCKFORD.EXE```. This is not accessible since the ```W``` menu was removed from the 1988 release.
+* ```Please insert disk 2``` string in ```ROCKFORD.EXE```. This is is only shown on PC in the 1987 5.25" floppy version. The DISK 2 contains the PLAYER and COWBOY themes, not the hidden themes as was speculated in the past!
+* References to the level times (0EFE -> 0F4D), collectible counts (0D1E -> 0D6D), collectible point values before door opens (0D6E -> 0DED), collectible point values after the door opens (0DBE -> 0E5D), palettes (0929 -> 09F2), and the names of the collectibles and game files used in the hidden themes (07A0 -> 08DF) in ```ROCKFORD.EXE```
 
 # Supported versions
 This tool is tested with the ROCKFORD.EXE that is 29963 bytes in size. It has not been tested with the version with infinite lives, because I have not found this version myself. It does not work with the 18kb ROCKFORD.EXE due to file encryption.
