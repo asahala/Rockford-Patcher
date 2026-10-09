@@ -9,20 +9,23 @@ Download [Rockford Lost Worlds Version 3.0](https://www.mv.helsinki.fi/home/asah
 * SCUBA, PLAYER and LUCK are fully completed with title cards, tilesets and animations.
 * MUSIC and MINER contain all tiles to play the levels, but contain no animations that play upon level completion, loss and running out of time.
   
-# Rockford and the (ambiguous) history of the missing levels
+# Rockford and the (ambiguous) history of the missing worlds
 [Rockford](https://en.wikipedia.org/wiki/Rockford_(video_game)) was a Boulder Dash clone published by Mastertronic ltd. in [1987 and 1988 on multiple platforms](https://pixelatedarcade.com/games/rockford-the-arcade-game/releases), including Amiga and MS-DOS. The game included 20 levels divided into five difficulty settings or "worlds", each using their own themes: hunter, cook, cowboy, space and doctor.
 
 Many did not know until the early 2000s that Rockford also included 20 **hidden levels** which were unplayable, but recoverable via [hacking the game files](https://www.mv.helsinki.fi/home/asahala/rockford/). The levels were included in ```CELLMAPS.BIN``` and the information on their names, time limits, collectibles and palettes in  ```ROCKFORD.EXE```. 
 
-Using a hex editor, one could see references to these five hidden themes as SCUBA, PLAYER, MUSIC, LUCK and MINER on PC. From these I deduced in 2006 that these worlds featured a scuba diver, sports player, music conductor, some sort of a leprechaun, and a miner, who collected gems, cups, notes, clubs and jewels, respectively. After looking into the Amiga version's executable, which referred to the MUSIC as COND and to LUCK as GAMB, it was possible to deduce that these feature a music conductor and a gambler. One difference in the Amiga version also was that it referred to the jewels as diamonds. 
+Using a hex editor, one could see that these hidden levels belong to five hidden themes: SCUBA, PLAYER, MUSIC, LUCK and MINER, who collected gems, cups, notes, clubs and jewels, respectively. After looking into the Amiga version's executable, which referred to the MUSIC as COND and to LUCK as GAMB, it was possible to deduce that the MUSIC referred to a a music conductor and LUCK to a gambler. One difference in the Amiga version also was that it referred to the jewels as diamonds. Prior to exploring the Amiga files, I thought that the LUCK theme was some sort of a leprechaun, which completely misguided me in the first version of this patcher!
 
-Since Adam Nielsen had created the [Camoto Studio](https://github.com/Malvineous/camoto-studio), which was able to open Rockford's planar EGA graphics files, it was discovered that the existing tilesets of the game contained placeholders for the player sprites for each of these themes. Since the EGA Rockford's palettes were apparently converted from the Amiga (which used dynamic 32 color palettes with 5 bitplanes), the tilesets in the PC version contained less than 16 colors each. This was, because some Amiga colors converged into a single RGB value in case they existed too close to each other in the color space. The image below shows an example of the placeholder sprites with the palette from BODY.
+Since Adam Nielsen had created the [Camoto Studio](https://github.com/Malvineous/camoto-studio), which was able to open Rockford's planar EGA graphics files, it was discovered that the existing tilesets of the game contained placeholders for the player sprites for each of these themes. However, to my knowledge not many people (including me) knew about this, since Camoto Studio users were generally not interested in Rockford. This changed in 2018 when Michael Eberlein (who was making a remake of Rockford) figured this out and wrote also his own parser for the files.
 
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/sprites.png)
+(Image: Placeholder sprites for all the player characters, including the hidden ones).
 
-The same sprites exist in the VGA version as well, which of graphics files were parsed by Michael Eberlein. Unfortunately the VGA graphics format used in Rockford uses a dynamic 32 color palette, which means that we can only view the hidden themes' character sprites using the palettes from the existing five themes, which corrupts the color space. Therefore, the true colors of the sprites remain unknown.
+Since the EGA Rockford's palettes were apparently converted from the Amiga (which used dynamic 32 color palettes with 5 bitplanes), the tilesets in the PC version contained less than 16 colors each. This was, because many Amiga colors converged into the same RGB values in case they existed too close to each other in the EGA color space. The palette corruption is apparent from the image above, which uses the BODY palette. Regardless of the missing palettes, it were these sprites that confirmed for the first time that the ambiguous PLAYER theme was actually an American football player: all the missing themes were now more or less solved!
 
-Regardless, it were these sprites that confirmed for the first time that the ambiguous PLAYER theme was actually an American football player. As an interesting side note, the tilesets also contained the original Boulder Dash guy "Rockford" in two different colored shirts for an unknown reason. It is possible that the developers once planned on including a two-player mode, and the sprites for the player characters were transferred from version to another, ending up in the PC and the Amiga tilesets. However, I have never received an official confirmation on this.
+The same placeholder sprites exist in the VGA version as well, which of graphics files were also parsed by Michael Eberlein in 2026. Unfortunately the Rockford VGA graphics format uses a dynamic 32 color palette, which means that we can only view the hidden themes' character sprites using the palettes from the existing five themes, which corrupts the color space just as in the EGA version. Therefore, the true colors of the sprites remain unknown.
+
+As an interesting side note, the tilesets also contained the original Boulder Dash guy "Rockford" in two different colored shirts for an unknown reason. It is possible that the developers once planned on including a two-player mode, and the sprites for the player characters were transferred from version to another, ending up in the PC and the Amiga tilesets. However, I have never received an official confirmation on this.
 
 ## What happened to the hidden themes?
 Now, it is a good question why the game files contain remnants of levels and graphics that never existed in the official releases. This is where everything gets ambiguous.
@@ -71,6 +74,16 @@ Progression-wise the levels in the hidden worlds are generally harder than the o
 As a side note, it seems that the developers recycled some ideas from the scrapped content. For example, the released BODY level two seems to be closely based on the PLAYER level one. See the screenshots below (thanks to Michael Eberlein for creating these). The PLAYER uses the COOK graphics set here.
 
 ![Compare](https://www.mv.helsinki.fi/home/asahala/rockford/comparison.png)
+
+### Some peculiarities in the 8-bit Atari and C64 versions
+The 8-bit Atari and C64 versions of Rockford feature some content not present in the Amiga, Atari ST and the PC releases. They also use one hidden level.
+
+* The HUNTER level 4 is completely unique, but remotely resembles the MUSIC level 2 (instead of the amoeba, it has a worm that one is supposed to use in order to get coins). However, this is likely a coincidence.
+* The COWBOY level 4 is modified and contains less enemies.
+* The SPACE levels 1 and 2 occur in a reverse order.
+* The BODY level 1 is 2 occur in a reverse order.
+* The BODY level 3 is replaced with LUCK level 4
+* The BODY level 4 is same as the PC/Amiga BODY level 3 (I have no idea who thought this level is harder than LUCK 4!)
 
 ## Conclusions
 It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
