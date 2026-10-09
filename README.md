@@ -130,7 +130,7 @@ Since I have now recovered some objective information on the lost graphics in th
 **Music** and **Miner** are fully reconstructed. Only a single frame of the player sprites are original, but with guessed color palette. It remains unknown if these graphics sets ever existed.
 
 ## Want to collaborate?
-I not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. Also the animation screens for Music and Miner are still undone. 
+I'm not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. Also the animation screens for Music and Miner are still undone. 
 
 # Copyrights
 Mastertronic / First Star Software still holds copyrights of the game, but it is available at many retro game sites and playable at Playold on browser. For copyright reasons the Original game graphics (HUNTER, COOK, COWBOY, SPACE, BODY) are not included in this Github. In case you want to use the Patcher yourself, you will have to get Rockford from somewhere, but who knows [where](https://www.xtcabandonware.com/game/786/rockford).
