@@ -39,7 +39,7 @@ Some of the screenshots are from the tileset showrooms that introduce player how
 
 ![showroom](https://www.mv.helsinki.fi/home/asahala/rockford/addon_033.png)
 
-In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches. The title cards and their origins are shown below.
+In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches. The title cards and their origins are shown below. Note that the COOK and SPACE animations use one pixel more vertical space than the others.
 
 ![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations2.gif)
 
