@@ -41,7 +41,7 @@ Some of the screenshots are from the tileset showrooms that introduce player how
 
 In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches (see below).
 
-![titlecards](https://www.mv.helsinki.fi/home/asahala/rockford/titlecards.png)
+![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations.gif)
 
 In September 2026, Daniel Grimes, the developer of a [browser-executable version of Rockford](https://rockford.dbhq.uk) informed me that an early PC version of Rockford published in December 1987 contained two of the hidden level sets and their graphics. This was a 5.25" floppy disk version that comprised two disks, one containing the HUNTER, SCUBA and COOK themes, and the other containing the PLAYER and the COWBOY themes. This version had been available on Archive.org since 2014, but completely overlooked by me and other people involved in exploring and hacking this game. The tile sets are shown below, followed by in-game screenshots:
 
@@ -67,7 +67,7 @@ As a side note, it seems that the developers recycled some ideas from the scrapp
 It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
 
 * 20 extra levels ```CELLMAPS.BIN``` 
-* Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release. The title cards are based on these animations (see image below).
+* Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release. The title cards are based on these animations.
 * Placeholders for unused player characters in ```*.FIL```
 * BoulderDash guy sprites in ```*.FIL```
 * Extra life collectible in ```*.FIL```. These are visible in the Amiga showrooms but on PC they cannot be placed on the map (it's not mapped to any hex value). It is possible that these were removed since the PC version was supposed to have infinite lives.
