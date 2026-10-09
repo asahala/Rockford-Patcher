@@ -19,6 +19,7 @@ Using a hex editor, one could see that these hidden levels belong to five hidden
 Since Adam Nielsen had created the [Camoto Studio](https://github.com/Malvineous/camoto-studio), which was able to open Rockford's planar EGA graphics files, it was discovered that the existing tilesets of the game contained placeholders for the player sprites for each of these themes. However, to my knowledge not many people (including me) knew about this, since Camoto Studio users were generally not interested in Rockford. This changed in 2018 when Michael Eberlein (who was making a remake of Rockford) figured this out and wrote also his own parser for the files.
 
 ![alt text](https://www.mv.helsinki.fi/home/asahala/rockford/sprites.png)
+
 (Image: Placeholder sprites for all the player characters, including the hidden ones).
 
 Since the EGA Rockford's palettes were apparently converted from the Amiga (which used dynamic 32 color palettes with 5 bitplanes), the tilesets in the PC version contained less than 16 colors each. This was, because many Amiga colors converged into the same RGB values in case they existed too close to each other in the EGA color space. The palette corruption is apparent from the image above, which uses the BODY palette. Regardless of the missing palettes, it were these sprites that confirmed for the first time that the ambiguous PLAYER theme was actually an American football player: all the missing themes were now more or less solved!
