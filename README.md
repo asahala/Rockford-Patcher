@@ -39,9 +39,9 @@ Some of the screenshots are from the tileset showrooms that introduce player how
 
 ![showroom](https://www.mv.helsinki.fi/home/asahala/rockford/addon_033.png)
 
-In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches. The title cards and their origins are shown below. Note that the COOK and SPACE animations use one pixel more vertical space than the others.
+In the 1988 PC version, the developers took single frames from the introductory animations and used them as title cards. Some of the frames are slightly polished, but some are exact matches. The title cards and their origins are shown below. Note that the COOK and SPACE animations use one pixel more vertical space (46x47) than the others. I have added the animations from the 1987 5.25" floppy disk version (discussed next) for SCUBA and PLAYER, and attempted to reconstruct the title cards. Following the logic that the title card always has the same background color as the levels do, I have given PLAYER a green background. I also fixed some missing lines in the SCUBA. It's impossible to say which frames would have been used, so that is pure guess. SCUBA uses one more horizontal pixel than the other animations, being 47x46.
 
-![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations2.gif)
+![animations](https://www.mv.helsinki.fi/home/asahala/rockford/animations2-new.gif)
 
 In September 2026, Daniel Grimes, the developer of a [browser-executable version of Rockford](https://rockford.dbhq.uk) informed me that an early PC version of Rockford published in December 1987 contained two of the hidden level sets and their graphics. This was a 5.25" floppy disk version that comprised two disks, one containing the HUNTER, SCUBA and COOK themes, and the other containing the PLAYER and the COWBOY themes. This version had been available on Archive.org since 2014, but completely overlooked by me and other people involved in exploring and hacking this game. The tile sets are shown below, followed by in-game screenshots:
 
