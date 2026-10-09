@@ -82,9 +82,9 @@ The 8-bit Atari and C64 versions of Rockford feature some content not present in
 * The HUNTER level 4 is completely unique, but remotely resembles the MUSIC level 2 (instead of the amoeba, it has a worm that one is supposed to use in order to get coins). However, this is likely a coincidence.
 * The COWBOY level 4 is modified and contains less enemies.
 * The SPACE levels 1 and 2 occur in a reverse order.
-* The BODY level 1 is 2 occur in a reverse order.
+* The BODY levels 1 and 2 occur in a reverse order.
 * The BODY level 3 is replaced with LUCK level 4
-* The BODY level 4 is same as the PC/Amiga BODY level 3 (I have no idea who thought this level is harder than LUCK 4!)
+* The BODY level 4 is the same as the PC/Amiga BODY level 3 (I have no idea who thought this level is harder than LUCK 4!)
 
 ## Conclusions
 It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
