@@ -168,7 +168,9 @@ Since I have now recovered some objective information on the lost graphics in th
 
 **Luck** is actually a gambler, not a leprechaun as I thought in 2023 in the initial version of the patcher. He collects green four-leaf clovers. The boulders are black eight-balls. The good worm consists of red playing cards and the bad one of black ones. One of the enemies is probably a gold nugget, but it is impossible to say for certain. The outer walls are probably some kind of dragon heads but it's impossible to say. Thus I've taken some freedom in drawing the tiles, yet this theme is about 75% accurate to the Amiga screenshots.
 
-**Music** and **Miner** are fully reconstructed. Only a single frame of the player sprites are original, but with guessed color palette. It remains unknown if these graphics sets ever existed.
+**Music** is still a reconstruction, but since now some screenshots of the Arcade version exist, they can be tuned. Interestingly, I guessed correctly that the stones were vinyl records and some of the walls are pianos!
+
+**Miner** is fully reconstructed. Only a single frame of the player sprites are original, but with guessed color palette. It remains unknown if these graphics sets ever existed.
 
 ## Want to collaborate?
 I'm not a graphics artist. If you you are, and are interested in collaborating to finetune the tile sets and graphics in a way that they are more similar to the game's original style, reach me out. Also the animation screens for Music and Miner are still undone. 
