@@ -35,13 +35,17 @@ In 2006, when I contacted the people involved with Mastertronic (but not Rockfor
 
 Another of his suggestions was that the game was originally planned to include ten themes and 40 levels, but half of them were cut off as Mastertronic wanted to distribute the exactly same game on 8-bit and 16-bit platforms, the former not really supporting large amounts of files. Thus, the developers perhaps only preserved the themes they considered the best.
 
-It is unknown whether the MINER and MUSIC themes were ever created for the Amiga version either, but the Atari ST version's box contains screenshots of Amiga's SCUBA, PLAYER and GAMBLER (LUCK) themes (see below). Some clues exist also in the Amiga box, which contains concept art from the SCUBA theme (see another image below). The Atari ST version was marketed quite misleadingly: first, the game box contained only Amiga screenshots (which looked completely different than the actual Atari ST graphics), and second, the images depicted themes that never existed in the released game!
+The Atari ST version's box contains screenshots of Amiga's SCUBA, PLAYER and GAMBLER (LUCK) themes (see below). Some clues exist also in the Amiga (and the PC) box, which contains concept art from the SCUBA theme (see another image below). The Atari ST version was marketed quite misleadingly: first, the game box contained only Amiga screenshots (which looked completely different than the actual Atari ST graphics), and second, the images depicted themes that never existed in the released game!
 
 ![Screenshots](https://i.imgur.com/CExXQRn.png)
 (Image: Details from the Atari ST box showing early Amiga screenshots)
 
 ![Screenshots2](https://www.mv.helsinki.fi/home/asahala/rockford/amigaback.png)
 (Image: Details from the Amiga box, displaying a fish and an octopus from the SCUBA theme.)
+
+Furthermore, a few screens of the MUSIC theme exist in the Zzap!64 magazine issue 27 (July, page 70), shown below:
+
+![screenshot3](https://www.mv.helsinki.fi/home/asahala/rockford/music.png)
 
 Some of the screenshots are from the tileset showrooms that introduce player how all the objects look in the given theme, and are shown when the game is loading the levels on Amiga and Atari ST. These rooms also play the introductory animation for the theme, which is never shown in the PC version. These animations, however, exist in the .CAR files and are titled "NEW". The introductory animations were replaced with title cards in the 1988 PC release. 
 
@@ -87,7 +91,7 @@ The 8-bit Atari and C64 versions of Rockford feature some content not present in
 * The BODY level 4 is the same as the PC/Amiga BODY level 3 (I have no idea who thought this level is harder than LUCK 4!)
 
 ## Conclusions
-It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. One question that remains is, whether the graphics for MUSIC and MINER were ever even created. Screenshots of them do not exist in the back of the Atari ST box, and thus there is no proof that they existed on the early Amiga versions either. Below is a list of remnants in Rockford that are not used in the game. 
+It seems likely that the hidden themes were some kind of "Proto-Rockford" content, and that they were dropped out for better progression and visually more appealing tilesets. Below is a list of remnants in Rockford that are not used in the game. 
 
 * 20 extra levels ```CELLMAPS.BIN``` 
 * Introductory animations labeled as NEW in ```*.CAR```. These were replaced with the title cards in the world selection menu in the 1988 PC release. The title cards are based on these animations.
@@ -174,7 +178,7 @@ Mastertronic / First Star Software still holds copyrights of the game, but it is
 
 # Credits
 * Michael Eberlein: parsing the VGA format in 2026 and informing me about the planar EGA in 2018
-* Daniel Grimes: informing me about the 1987 release with Scuba and Player tilesets in 2026
+* Daniel Grimes: informing me about the 1987 release with Scuba and Player tilesets, as well as the Music screenshots in the Zzap! magazine!
 * Simon Plumbe: giving valuable input and details on the history of Mastertronic and Rockford in 2026
 * Adam Nielsen: Camoto Studio and access into the planar EGA files
 * Atari Legend: Atari ST box scans in a reasonable resolution
